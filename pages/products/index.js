@@ -19,7 +19,9 @@ export default function Index({ products }) {
         <>
             <Head>
                 <title>Products</title>
-                <meta name='Keyword' content='Web Shop' />
+                <meta name='keyword' content="Web shop" />
+                <meta name="description" content="My web shop build by next.js"/>
+                <meta name="author" content="zixsorus"/>
             </Head>
             <div className={style.container}>
                 <div className={style.flexcontainer}>
