@@ -1,10 +1,17 @@
 .container{
     display: flex;
+    
+    justify-content: center;
+}
+
+.flexcontainer{
+    width: 1600px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.container div{
+.flexcontainer div{
     width: 300px;
     height: auto;
     margin: 30px 15px;
@@ -14,10 +21,10 @@
     border-bottom-right-radius: 3px;
     box-shadow: 0 0.06rem 0.2rem 0 rgba(0,0,0,.1);
 }
-.container div:hover{
+.flexcontainer div:hover{
     border: 1px solid tomato;
 }
-.container h2{
+.flexcontainer h2{
     padding: 0 10px;
 }
 
@@ -25,7 +32,7 @@
     padding: 0 10px;
 }
 
-.container a{
+.flexcontainer a{
     color: black;
     text-decoration: none;
 }
